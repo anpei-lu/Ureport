@@ -1,0 +1,15 @@
+##项目tomcat启动端口号
+server:
+  port: 8001
+
+spring:
+  application:
+    ##应用别名
+    name: springCloud-1-start
+
+devtools:
+  livereload:
+    enabled: false #是否支持浏览器的livereload
+    port: ${server.port}
+  restart:
+    enabled: true #是否支持热部署
